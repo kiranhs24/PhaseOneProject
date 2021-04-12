@@ -93,7 +93,7 @@ public class TestAmazonProductList extends MobilePhones {
 
 		String productTitleInCart = driver.findElement(By.xpath(cartItemTitle)).getText();
 		
-		String item_name = (String) productTitleInCart.subSequence(0, 53);
+		String item_name = (String) productTitleInCart.split("-")[0];
 		
 		String cartValue = (String) driver.findElement(By.xpath(totalAmount)).getText();
 		
