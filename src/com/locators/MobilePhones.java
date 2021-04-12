@@ -18,4 +18,6 @@ public class MobilePhones {
 	
 	public static String cartItemTitle = "//span[contains(@class, 'sc-product-title')]";
 	
+	public static String totalAmount = "//span[@id='sc-subtotal-amount-buybox']";
+	
 }
